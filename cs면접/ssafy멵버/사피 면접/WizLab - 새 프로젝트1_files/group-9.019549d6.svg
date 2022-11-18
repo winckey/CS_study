@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="14px" viewBox="0 0 18 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>E12A155E-B02A-4B80-B64E-DF28A65F6AC9</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="design-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-356.000000, -308.000000)">
+            <g id="Group-9" transform="translate(355.000000, 305.000000)">
+                <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                <g id="volume-2" transform="translate(1.666667, 3.333333)" stroke="#1DB6FF" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon id="Path" points="7.5 0.833333333 3.33333333 4.16666667 0 4.16666667 0 9.16666667 3.33333333 9.16666667 7.5 12.5"></polygon>
+                    <path d="M14.225,0.775 C17.4781828,4.02916543 17.4781828,9.3041679 14.225,12.5583333 M11.2833333,3.71666667 C12.9099247,5.34374938 12.9099247,7.98125062 11.2833333,9.60833333" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

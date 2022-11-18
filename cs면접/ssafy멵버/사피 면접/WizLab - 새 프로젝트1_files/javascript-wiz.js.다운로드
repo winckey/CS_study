@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><meta name="google" value="notranslate"/><link rel="shortcut icon" href="/favicon.ico"/><meta id="viewport" name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta property="og:type" content="website"/><meta property="og:title" content="위즈랩"/><meta property="og:description" content="누구나 쉽게 게임을 만들며 코딩을 체험할 수 있는 소프트웨어 교육 서비스입니다."/><meta property="og:image" content="https://d1tz4sj00zmgsb.cloudfront.net/wizlab-thumbnail.png"/><meta property="og:url" content="https://wizlab.net"/><meta name="description" content="누구나 쉽게 게임을 만들며 코딩을 체험할 수 있는 소프트웨어 교육 서비스입니다."/><link rel="canonical" href="https://wizlab.net"/><meta name="naver-site-verification" content="ed09254b1a35da3e870d5fb8682e3dfbd49b6108"/><meta name="google-site-verification" content="GGb-QqFL5JVpMmbKFKMAF17B0xEkKI13sXF-PeiQ0O4"/><script async src="https://www.googletagmanager.com/gtag/js?id=AW-623322625"></script><script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","AW-623322625")</script><script>gtag("event","conversion",{send_to:"AW-623322625/3VtBCPW3v9wBEIHMnKkC"})</script><script>!function(e,t,a,n,g){e[n]=e[n]||[],e[n].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var m=t.getElementsByTagName(a)[0],r=t.createElement(a);r.async=!0,r.src="https://www.googletagmanager.com/gtm.js?id=GTM-TS3NKTR",m.parentNode.insertBefore(r,m)}(window,document,"script","dataLayer")</script><script async src="https://www.googletagmanager.com/gtag/js?id=UA-168395916-1"></script><script src="//cdn.jsdelivr.net/bluebird/3.5.0/bluebird.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/url-search-params/1.1.0/url-search-params.js"></script><script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=default,Array.prototype.find,Array.prototype.findIndex"></script><script src="https://developers.kakao.com/sdk/js/kakao.min.js"></script><script>Kakao.init("15c9150c4f874b13050919da0c6d447a")</script><script async defer="defer" src="https://connect.facebook.net/en_US/sdk.js"></script><script type="text/javascript" charset="UTF-8" src="//t1.daumcdn.net/adfit/static/kp.js"></script><script>window.fbAsyncInit=function(){FB.init({appId:"2588620097906797",autoLogAppEvents:!0,xfbml:!0,version:"v8.0"})}</script><script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.min.js"></script><script type="text/javascript" src="https://cdn.iamport.kr/js/iamport.payment-1.1.5.js"></script><script>function setViewPortSize() {
+        const viewport = document.getElementById("viewport");
+        const width = Math.max(
+          document.documentElement.clientWidth,
+          window.innerWidth || 0
+        );
+
+        if (width < 1120) {
+          if (width >= 768 && width < 1120) {
+            viewport.setAttribute("content", "width=1120");
+          } else if (width !== 1120) {
+            viewport.setAttribute("content", "width=device-width");
+            // } else {
+            // viewport.setAttribute("content", "width=1250, initial-scale=1.0");
+          }
+        } else if (width === 1120) {
+          // document.body.scrollTo(0, 0);
+        }
+      }
+      setViewPortSize();
+      window.onload = function() {
+        setViewPortSize();
+        // alert("onload");
+      };
+      window.onresize = function() {
+        setViewPortSize();
+        // alert("onresize" + document.documentElement.clientWidth);
+      };
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-168395916-1");
+
+      if (!Array.prototype.includes) {
+        Object.defineProperty(Array.prototype, "includes", {
+          enumerable: false,
+          value: function(obj) {
+            var newArr = this.filter(function(el) {
+              return el == obj;
+            });
+            return newArr.length > 0;
+          }
+        });
+      }
+      if (!Array.prototype.find) {
+        Object.defineProperty(Array.prototype, "find", {
+          value: function(predicate) {
+            // 1. Let O be ? ToObject(this value).
+            if (this == null) {
+              throw new TypeError('"this" is null or not defined');
+            }
+            var o = Object(this);
+            // 2. Let len be ? ToLength(? Get(O, "length")).
+            var len = o.length >>> 0;
+            // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+            if (typeof predicate !== "function") {
+              throw new TypeError("predicate must be a function");
+            }
+            // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+            var thisArg = arguments[1];
+            // 5. Let k be 0.
+            var k = 0;
+            // 6. Repeat, while k < len
+            while (k < len) {
+              // a. Let Pk be ! ToString(k).
+              // b. Let kValue be ? Get(O, Pk).
+              // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+              // d. If testResult is true, return kValue.
+              var kValue = o[k];
+              if (predicate.call(thisArg, kValue, k, o)) {
+                return kValue;
+              }
+              // e. Increase k by 1.
+              k++;
+            }
+
+            // 7. Return undefined.
+            return undefined;
+          }
+        });
+      }</script><script type="text/javascript">var _TRK_LID="105006",_L_TD="ssl.logger.co.kr",_TRK_CDMN=".wizlab.net"</script><script type="text/javascript">var _CDN_DOMAIN="https:"==location.protocol?"https://fs.bizspring.net":"http://fs.bizspring.net";!function(t,e){var s=t.getElementsByTagName(e)[0],n=t.createElement(e);n.async=!0,n.src="//fs.bizspring.net/fs4/bstrk.1.js",s.parentNode.insertBefore(n,s)}(document,"script")</script><noscript><img alt="Logger Script" width="1" height="1" src="http://ssl.logger.co.kr/tracker.1.tsp?u=105006&amp;js=N"/></noscript><script>function setBizSpring() {
+        let bizSpring = document.createElement("script");
+        bizSpring._TRK_PI = "RGR";
+        bizSpring._TRK_SX = "";
+        bizSpring._TRK_AG = "";
+      }</script><link rel="manifest" href="/manifest.json"/><title>위즈랩</title><link href="/static/css/47.86c0ac08.chunk.css" rel="stylesheet"><link href="/static/css/main.192d384a.chunk.css" rel="stylesheet"></head><script src="/rollbar.js"></script><script type="text/javascript">let lang = localStorage.getItem("wizLang");
+    if (!lang) lang = navigator.language;
+    function appendLink(href) {
+      let elHead, elLink;
+      elLink = document.createElement("link");
+      elLink.rel = "stylesheet";
+      elLink.type = "text/css";
+      elLink.href = href;
+      elHead = document.getElementsByTagName("head")[0];
+      elHead.appendChild(elLink);
+    }
+    if (lang !== "zh") {
+      appendLink(
+        "https://fonts.googleapis.com/css?family=Black+And+White+Picture|Black+Han+Sans|Cute+Font|Do+Hyeon|Dokdo|East+Sea+Dokdo|Gaegu|Gamja+Flower|Gothic+A1|Gugi|Hi+Melody|Jua|Kirang+Haerang|Nanum+Brush+Script|Nanum+Gothic|Nanum+Myeongjo|Nanum+Pen+Script|Noto+Sans+KR|Noto+Serif+KR|Poor+Story|Song+Myung|Stylish|Sunflower:300|Yeon+Sung&amp;subset=korean"
+      );
+      appendLink(
+        "https://fonts.googleapis.com/css?family=Source+Sans+Pro|Varela+Round"
+      );
+      appendLink("https://fonts.googleapis.com/earlyaccess/notosanskr.css");
+      appendLink(
+        "https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700"
+      );
+      appendLink(
+        "https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      );
+    }</script><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="alert"></div><div id="root"></div><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TS3NKTR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script src="/phaser2.min.js"></script><script src="/phaser2-joystick.js"></script><script src="/ace/ace.js"></script><script src="/ace/ext-language_tools.js"></script><script src="/ace/wizschool-theme.js"></script><script src="/ace/wizschool-theme-light.js"></script><script src="/game/colors.js"></script><script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/webrtc-adapter/6.4.0/adapter.min.js"></script><script src="/janus.js"></script><script src="/babylon/babylonConstant.js"></script><script src="/babylon/babylonGame.js"></script><script src="/babylon/babylonScene.js"></script><script src="/babylon/babylonGameObject.js"></script><script src="/babylon/babylonSound.js"></script><script>!function(d){function e(e){for(var t,r,n=e[0],c=e[1],a=e[2],f=0,o=[];f<n.length;f++)r=n[f],l[r]&&o.push(l[r][0]),l[r]=0;for(t in c)Object.prototype.hasOwnProperty.call(c,t)&&(d[t]=c[t]);for(b&&b(e);o.length;)o.shift()();return i.push.apply(i,a||[]),u()}function u(){for(var e,t=0;t<i.length;t++){for(var r=i[t],n=!0,c=1;c<r.length;c++){var a=r[c];0!==l[a]&&(n=!1)}n&&(i.splice(t--,1),e=s(s.s=r[0]))}return e}var r={},o={51:0},l={51:0},i=[];function s(e){if(r[e])return r[e].exports;var t=r[e]={i:e,l:!1,exports:{}};return d[e].call(t.exports,t,t.exports,s),t.l=!0,t.exports}s.e=function(i){var e=[];o[i]?e.push(o[i]):0!==o[i]&&{2:1,6:1,7:1,8:1,9:1,10:1,11:1,12:1,13:1,14:1,15:1,16:1,17:1,18:1,19:1,20:1,21:1,22:1,23:1,24:1,25:1,26:1,27:1,28:1,29:1,30:1,31:1,32:1,33:1,34:1,35:1,36:1,37:1,38:1,39:1,40:1,41:1,42:1,43:1,44:1,45:1,46:1,48:1}[i]&&e.push(o[i]=new Promise(function(e,n){for(var t="static/css/"+({}[i]||i)+"."+{0:"31d6cfe0",1:"31d6cfe0",2:"3618fd59",3:"31d6cfe0",4:"31d6cfe0",6:"e8d0961f",7:"0e39c556",8:"4d98ac71",9:"23c36478",10:"11645fb5",11:"e7f3b708",12:"99c3c4f3",13:"96695577",14:"25ed8ade",15:"54333037",16:"99acfbe8",17:"518853c9",18:"728d6afb",19:"0beb1aa8",20:"e647a31c",21:"7d3bff83",22:"6d5eb0c2",23:"88bc5667",24:"7c19cfe0",25:"08b7fbe0",26:"7335e81f",27:"c29bfd85",28:"21c108e6",29:"ce5ec4e4",30:"a4a32a77",31:"7b415ff4",32:"d363fbaf",33:"13474c55",34:"f0045b38",35:"128c670a",36:"12dd0fa9",37:"c30ec6fe",38:"8f4dcfad",39:"1d02d96c",40:"8fdbc53c",41:"f751450b",42:"9a3c4820",43:"9366f240",44:"558f36a2",45:"6418e6ff",46:"e86e3d25",48:"6baf2c50",49:"31d6cfe0",50:"31d6cfe0"}[i]+".chunk.css",c=s.p+t,r=document.getElementsByTagName("link"),a=0;a<r.length;a++){var f=(d=r[a]).getAttribute("data-href")||d.getAttribute("href");if("stylesheet"===d.rel&&(f===t||f===c))return e()}var o=document.getElementsByTagName("style");for(a=0;a<o.length;a++){var d;if((f=(d=o[a]).getAttribute("data-href"))===t||f===c)return e()}var u=document.createElement("link");u.rel="stylesheet",u.type="text/css",u.onload=e,u.onerror=function(e){var t=e&&e.target&&e.target.src||c,r=new Error("Loading CSS chunk "+i+" failed.\n("+t+")");r.request=t,n(r)},u.href=c,document.getElementsByTagName("head")[0].appendChild(u)}).then(function(){o[i]=0}));var r=l[i];if(0!==r)if(r)e.push(r[2]);else{var t=new Promise(function(e,t){r=l[i]=[e,t]});e.push(r[2]=t);var n,c=document.getElementsByTagName("head")[0],a=document.createElement("script");a.charset="utf-8",a.timeout=120,s.nc&&a.setAttribute("nonce",s.nc),a.src=s.p+"static/js/"+({}[i]||i)+"."+{0:"9ff156c0",1:"01c7803f",2:"ee6f26b3",3:"24e51c9e",4:"39f357a3",6:"9c21c790",7:"d81b29c8",8:"e08dead9",9:"57929847",10:"081b4163",11:"26b1dc7d",12:"2ff2ddbe",13:"ed0dafab",14:"466fdaa2",15:"24a662a8",16:"7dc842ea",17:"79ab8757",18:"ea9f7437",19:"f1d0ea0b",20:"627ef341",21:"37c5ea78",22:"3650c9e9",23:"f21505e1",24:"19a78a63",25:"3a4d74ad",26:"47c5078f",27:"55dc5966",28:"1e29015a",29:"6e7d63f6",30:"5f0ad599",31:"7f1699d8",32:"1c3e92dd",33:"c396818e",34:"eb16560c",35:"251cdd5c",36:"29add37c",37:"c262f3ed",38:"7b4e3259",39:"b2deb1be",40:"5c2259ed",41:"904fcd79",42:"5b59bd9f",43:"66ac1076",44:"335995ef",45:"b3f70117",46:"4560b32e",48:"8de130b0",49:"fc1fea0c",50:"78501d63"}[i]+".chunk.js",n=function(e){a.onerror=a.onload=null,clearTimeout(f);var t=l[i];if(0!==t){if(t){var r=e&&("load"===e.type?"missing":e.type),n=e&&e.target&&e.target.src,c=new Error("Loading chunk "+i+" failed.\n("+r+": "+n+")");c.type=r,c.request=n,t[1](c)}l[i]=void 0}};var f=setTimeout(function(){n({type:"timeout",target:a})},12e4);a.onerror=a.onload=n,c.appendChild(a)}return Promise.all(e)},s.m=d,s.c=r,s.d=function(e,t,r){s.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},s.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},s.t=function(t,e){if(1&e&&(t=s(t)),8&e)return t;if(4&e&&"object"==typeof t&&t&&t.__esModule)return t;var r=Object.create(null);if(s.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:t}),2&e&&"string"!=typeof t)for(var n in t)s.d(r,n,function(e){return t[e]}.bind(null,n));return r},s.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return s.d(t,"a",t),t},s.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},s.p="/",s.oe=function(e){throw console.error(e),e};var t=window.webpackJsonp=window.webpackJsonp||[],n=t.push.bind(t);t.push=e,t=t.slice();for(var c=0;c<t.length;c++)e(t[c]);var b=n;u()}([])</script><script src="/static/js/47.4f86e4d2.chunk.js"></script><script src="/static/js/main.61f471b5.chunk.js"></script></body></html>

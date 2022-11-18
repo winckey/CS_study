@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>40FA5CC7-481A-4DF0-8C0E-F319DEC662FA</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="design-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-192.000000, -256.000000)">
+            <g id="property_w" transform="translate(192.000000, 256.000000)">
+                <g id="property-copy-2">
+                    <g id="Group-6">
+                        <g>
+                            <rect id="Rectangle" x="0" y="0" width="20" height="20"></rect>
+                            <g id="info" transform="translate(0.952381, 0.952381)" stroke="#FFFFFF" stroke-linecap="round" stroke-linejoin="round">
+                                <circle id="Oval" cx="9.04761905" cy="9.04761905" r="9.04761905"></circle>
+                                <line x1="9.04761905" y1="12.3809524" x2="9.04761905" y2="9.52380952" id="Path"></line>
+                                <line x1="9.04285714" y1="6.19047619" x2="9.05238095" y2="6.19047619" id="Path"></line>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

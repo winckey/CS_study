@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'Jua';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/l/font?kit=co3KmW9ljjAjdvi040c-UidAQvxoCMlvT97mWKo-D5AoH7HB0dpeZFqNwlAguxZUaaL89HMbD0G2Q1pZXQZ58nti0YzQ-iIkG-teZtsS4nEWXjKdLcPFw8wr62kvqWHg1PqZ3AARo2WPixand1SSlVEh8X-i&skey=95a5f5d34191ae20&v=v8) format('woff2');
+}

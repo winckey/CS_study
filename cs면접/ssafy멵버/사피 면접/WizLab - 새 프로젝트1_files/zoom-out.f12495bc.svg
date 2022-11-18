@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>CFEF75D9-D64D-4FA3-BADE-506AD65AB8A3</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="design-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-42.000000, -233.000000)">
+            <g id="zoom-out" transform="translate(42.000000, 233.000000)">
+                <g id="Group-10">
+                    <rect id="Rectangle-Copy-28" x="0" y="0" width="22" height="22"></rect>
+                    <g id="zoom-out" transform="translate(1.100000, 1.100000)" stroke="#858997" stroke-linecap="round" stroke-linejoin="round">
+                        <circle id="Oval" cx="8.8" cy="8.8" r="8.8"></circle>
+                        <line x1="19.8" y1="19.8" x2="15.015" y2="15.015" id="Path"></line>
+                        <line x1="5.5" y1="8.8" x2="12.1" y2="8.8" id="Path"></line>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

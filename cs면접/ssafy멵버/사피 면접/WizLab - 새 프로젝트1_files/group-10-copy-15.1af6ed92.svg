@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="15px" viewBox="0 0 13 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>A50CE112-360C-4A51-8CA4-24DFF13E038D</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="-design-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="dark-mode-icon" transform="translate(-57.000000, -243.000000)">
+            <g id="Group-10-Copy-15" transform="translate(56.000000, 243.000000)">
+                <rect id="Rectangle-Copy-17" x="0" y="0" width="15" height="15"></rect>
+                <g id="trash-2" transform="translate(1.304348, 0.652174)" stroke="#858997" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Path" points="0 2.93478261 1.37681159 2.93478261 12.3913043 2.93478261"></polyline>
+                    <path d="M11.0869565,3.19565217 L11.0869565,12.3831522 C11.0869565,13.1080259 10.4612675,13.6956522 9.68944099,13.6956522 L2.70186335,13.6956522 C1.93003684,13.6956522 1.30434783,13.1080259 1.30434783,12.3831522 L1.30434783,3.19565217 M3.40062112,2.73913043 L3.40062112,1.36956522 C3.40062112,0.613175234 4.02631013,0 4.79813665,0 L7.5931677,0 C8.36499422,0 8.99068323,0.613175234 8.99068323,1.36956522 L8.99068323,2.73913043" id="Shape"></path>
+                    <line x1="4.89130435" y1="6.52173913" x2="4.89130435" y2="10.4347826" id="Path"></line>
+                    <line x1="7.5" y1="6.52173913" x2="7.5" y2="10.4347826" id="Path"></line>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

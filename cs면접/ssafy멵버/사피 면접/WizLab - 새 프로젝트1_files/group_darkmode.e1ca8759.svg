@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="19px" height="18px" viewBox="0 0 19 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>65B3B05A-EF0B-470B-BBEB-7434434D1C90</title>
+    <desc>Created with sketchtool.</desc>
+    <g id="design-system" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-44.000000, -584.000000)">
+            <g id="Group" transform="translate(43.000000, 582.000000)">
+                <rect id="Rectangle" x="0" y="0" width="22" height="22"></rect>
+                <g id="refresh-ccw" transform="translate(1.692308, 3.384615)" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round">
+                    <polyline id="Path" points="0 0.692307692 0 5.76923077 4.78402367 5.76923077"></polyline>
+                    <polyline id="Path" points="17.7692308 14.5384615 17.7692308 9.46153846 12.9852071 9.46153846"></polyline>
+                    <path d="M15.7419231,5.07630369 C14.9092879,2.61069671 12.9277073,0.765129002 10.4933069,0.187945144 C8.05890647,-0.389238714 5.51214393,0.382682044 3.74769231,2.23253306 L0,5.922664 M17.7692308,9.30810523 L14.0215385,12.9982362 C12.2570868,14.8480872 9.7103243,15.6200079 7.27592389,15.0428241 C4.84152348,14.4656402 2.85994286,12.6200725 2.02730769,10.1544655" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
