@@ -1,0 +1,7 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=0041FE28
+eax=00000000 ebx=800D2328 ecx=FFFFFFFF edx=00000001 esi=00000000 edi=00000000
+ebp=00000000 esp=006FC294 program=C:\Users\JangHyunJin\AppData\Local\Atlassian\SourceTree\git_local\usr\bin\mintty.exe, pid 940, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+End of stack trace
