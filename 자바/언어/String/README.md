@@ -1,14 +1,45 @@
-String 생성 방법
-new 연산자
-String str = new String("new 연산자로 String 생성")
-JVM의 Heap 영역에 존재하게 된다(Object임. String은 Reference Type)
-literal 방식
-String literalStr = "literal 방법으로 String 생성"
-JVM의 String Constant Pool에 존재하게 된다
-JAVA 6 까지 String Constant Pool은 Heap 영역의 Perm에 있었다.
-JAVA 7부터 Heap 영역으로 변경되었다 (Out Of Memory 이슈때문)
-Perm은 Runtime중 size를 바꿀 수 없다
-Heap 영역으로 변경된 것은, GC의 대상이 될 수 있다
-JDK 8에서 Perm 영역을 삭제하고, Metaspace 영역이 추가(Native 영역)
-OS가 자동으로 크기를 조절
-OutOfMemoryError를 더 보기 힘들어졌다
+
+### String
+
+- String은 문자들을 유니코드로 보관 한다. 
+    - HTML / 마크업 문자들을 저장 할수 없다 
+    - 유니코드 범위를 넘을 경우 에러반환
+    
+- String은 불변성을 가짐
+   - 저장되는 value가 final로 선언됨
+   ```java
+    private final byte[] value;
+   ```
+   - 객체를 변경할수 없고 연산할때마다 새로운 객체 생성
+   
+- 때문에 변하지 않는 문자열을 자주 읽어들이는 경우 String을 사용해 주시면 좋은 성능 보여준다. 
+
+- 문자열 추가,수정,삭제 등의 연산이 빈번하게 발생하는 알고리즘에 String 클래스를 사용하면 힙 메모리(Heap)에 많은 임시 가비지(Garbage)가 생성되어 GC 또는 full GC가 자주 발생할수 있음.
+
+![](https://velog.velcdn.com/images/winckey0/post/52ed1bdc-f0f7-4a9d-891b-887d92029ce5/image.png)
+
+
+###  StringBuffer / StringBuilder
+String의 단점을 보안하기 위한 클래스
+
+- String 과는 반대로 StringBuffer/StringBuilder 는 가변성 가지기 때문에 .append() .delete() 등의 API를 이용하여 동일 객체내에서 문자열을 변경하는 것이 가능
+
+StringBuffer     :  문자열 연산이 많고 멀티쓰레드 환경일 경우
+StringBuilder   :  문자열 연산이 많고 단일쓰레드이거나 동기화를 고려하지 않아도 되는 경우  
+
+
+### StringBuffer + Synchronized 
+
+```java
+@Override
+public synchronized int length() {
+	return count;
+}
+    
+@Override
+public synchronized void setCharAt(int index, char ch) {
+    toStringCache = null;
+    super.setCharAt(index, ch);
+}
+```
+synchronized 키워드를 통해 멀티스레드 환경에서 제어가능
