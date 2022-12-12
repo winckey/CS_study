@@ -43,3 +43,15 @@ A값변동이 일어 날 때 B를 조회 하려하면 A 트랜젝션이 끝나�
 
 만약 A 와 B 가 네트워크가 분단되어서 서로 다른 데이터가 있을때 (제 3의 노드를 통해서 일관성을 유지하지 못할때)  도연이는 A 를 , 미나는 B 디비를 사용한다면 , 둘은 서로 다른 데이터를 보게 됩니다. 즉 "일관성" 이 없어지게 됩니다. 
 * "일관성" 을 지키기위해서 네트워크가 복구될때까지 기다린다면 "가용성" 이 떨어지게 됩니다. 가용성이란건 정확히 규정하는게 정해져있지 않지만 , 즉시 서비스 결과를 도연이와 미나는 받을 수 있는걸 말합니다. (실패여부라도 즉시, 여기서 즉시에 해당하는 시간은 정의에 따라서 달라집니다.)
+
+
+- Key Value DB
+Key와 Value의 쌍으로 데이터가 저장되는 가장 단순한 형태의 솔루션으로 Amazon의 Dynamo Paper에서 유래되었습니다. Riak, Vodemort, Tokyo 등의 제품이 많이 알려져 있습니다.
+- Wide Columnar Store
+Big Table DB라고도 하며, Google의 BigTable Paper에서 유래되었습니다. Key Value 에서 발전된 형태의 Column Family 데이터 모델을 사용하고 있고, HBase, Cassandra, ScyllaDB 등이 이에 해당합니다.
+- Document DB
+Lotus Notes에서 유래되었으며, JSON, XML과 같은 Collection 데이터 모델 구조를 채택하고 있습니다. MongoDB, CoughDB가 이 종류에 해당합니다.
+- Graph DB
+Euler & Graph Theory에서 유래한 DB입니다. Nodes, Relationship, Key-Value 데이터 모델을 채용하고 있습니다. Neo4J, OreientDB 등의 제품이 있습니다.
+
+Wikipedia에서 관련 자료를 찾아보면, 아래 표와 같이 좀 더 다양한 NoSQL 제품들을 볼 수 있습니다. 이들의 특성을 보면 많은 제품들이 자신들만의 비즈니스 요구사항에 의해 만들어져서 적용되었고, 이후 오픈소스로 공개되어 활성화된 경우가 대부분입니다.
